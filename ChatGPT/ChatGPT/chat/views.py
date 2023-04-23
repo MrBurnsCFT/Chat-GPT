@@ -17,7 +17,7 @@ def Ajax(request):
         text = request.POST.get('text')
         print(text)
         
-        openai.api_key = "YOUR_API_KEY" 
+        openai.api_key = "sk-...8oTx" 
         res = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
